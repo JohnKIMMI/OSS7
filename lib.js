@@ -21,6 +21,11 @@ function max(numbers) {
         ((max, curr) => (max > curr ? max : curr), numbers[0]);
 }
 
+function min(numbers){
+    return numbers.reduce
+        ((min, curr) => (min < curr ? min : curr), numbers[0]);
+}
+
 /*exports.sum = sum;
 exports.avg = avg;
 exports.max = max;*/
@@ -28,4 +33,5 @@ module.exports = {
     sum,
     avg,
     max,
+    min,
 };

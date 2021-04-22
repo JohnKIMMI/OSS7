@@ -29,6 +29,9 @@ switch (command) {
     case "max":
         result = lib.max(numbers);
         break;
+    case "min":
+        result = lib.min(numbers);
+        break;
     default:
         console.log("Wrong command");
         process.exit(1);
